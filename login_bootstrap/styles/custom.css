@@ -22,6 +22,7 @@ body{
 #login-pwd::placeholder{
     color: #343A40;
 }
+
 #login-pwd{
     text-align: center;
 }
