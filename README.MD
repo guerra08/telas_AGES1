@@ -1,4 +1,3 @@
-Protótipos de tela --> pasta mockups  
-Módulo login --> pasta login  
-Módulo dashboard --> pasta dashboard  
-Módulo tabela --> pasta table  
+Módulo login padrão --> pasta login  
+Módulo login com Bootstrap --> pasta login_bootstrap  
+
