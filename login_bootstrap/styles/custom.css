@@ -1,0 +1,21 @@
+html,
+body{
+ height: 100%;
+ background-color: aliceblue;
+}
+
+#page-center {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#login-module {
+    width: 100%;
+}
+
+#logo-pf-login{
+    width: 15%;
+    height: auto;
+}
