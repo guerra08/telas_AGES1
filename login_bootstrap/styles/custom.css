@@ -19,3 +19,6 @@ body{
     width: 15%;
     height: auto;
 }
+#login-pwd::placeholder{
+    color: #343A40;
+}
