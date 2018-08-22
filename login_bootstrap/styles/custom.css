@@ -16,9 +16,20 @@ body{
 }
 
 #logo-pf-login{
-    width: 15%;
+    width: 17%;
     height: auto;
 }
 #login-pwd::placeholder{
     color: #343A40;
+}
+#login-pwd{
+    text-align: center;
+}
+
+#login-label{
+    font-size: 25px;
+}
+
+#capslock-indicator{
+    visibility: hidden;
 }
