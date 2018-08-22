@@ -5,3 +5,7 @@ function capsLock(e){
         ((kc >= 97 && kc <= 122) && sk) ? 'visible' : 'hidden';
     document.getElementById('capslock-indicator').style.visibility = visibility
 }
+
+function addVisibility(){
+    document.getElementById('capslock-indicator').style.visibility = 'hidden';
+}

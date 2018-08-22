@@ -27,12 +27,13 @@
                         <form>
                             <div class="form-group">
                                 <label for="pwd" id="login-label">Login</label>
-                                <input type="password" class="form-control" id="login-pwd" placeholder="Insira a senha de acesso:" onkeypress="capsLock(event)">
+                                <input type="password" class="form-control" id="login-pwd" placeholder="Insira a senha de acesso:" onkeypress="capsLock(event)" onblur="addVisibility()">
                             </div>
                             <div class="form-group" id="capslock-indicator">
                                <p>Caps Lock ativado!</p>
                             </div>
                             <button type="submit" class="btn btn-outline-dark">Entrar</button>
+                            <button type="submit" class="btn btn-outline-danger">Trocar senha</button>
                         </form>
                     </div>
                 </div>
